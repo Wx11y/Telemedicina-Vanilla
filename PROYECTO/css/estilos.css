@@ -1,0 +1,100 @@
+nav{
+    background-color: rgb(80, 200, 130);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+nav li {
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10%;
+}
+nav a:link,
+nav a:visited,
+nav a:active, h1 a:link, h1 a:visited, h1 a:active {
+    text-decoration: none;
+    color: black;
+}
+h1 a:link, h1 a:visited, h1 a:active {
+    color: black;
+    text-decoration: none;
+}
+a:link,a:visited,a:active{
+    color: black;
+   
+}
+#consulta_mensaje{
+    resize: none;
+    border: none;
+}
+#mensaje{
+    resize: none;
+}
+#env_mensaje{
+    background-color: rgb(150, 160, 153);
+    border: 1px solid;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+#env_mensaje:hover{
+    background-color: rgb(114, 122, 117);
+}
+.contenedor_mensajes{
+    width: 50%;
+}
+.contenedor_mensajes div{
+    overflow-y: auto;
+}
+.izq p{
+    max-width: 50%;
+    margin-left: 0px;
+    float: left;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(126, 154, 171);
+    color: white;
+}
+.der p{
+    max-width: 50%;
+    margin-right: 0px;
+    float: right;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(28, 137, 205);
+    color: white;
+}
+.leido p{
+    margin-right: 0px;
+    float: right;
+    position: relative;
+    bottom: 15px;
+    color: rgb(156, 158, 157);
+}
+.perfil div{
+    display: inline-block;
+    margin-left: 15px; 
+}
+.contenedor_perfil{
+    overflow-y: auto;
+    vertical-align: top;
+}
+.contenedor_perfil img{
+    float: left;
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+.consulta_foto{
+    width: 50px;
+    height: auto;
+}
+.bandeja td, .medicos td{
+    width: 200px;
+}
+.bandeja td, .medicos td{
+    text-align: center;
+}
+.medicos img{
+    width: 50px;
+    height: auto;
+}

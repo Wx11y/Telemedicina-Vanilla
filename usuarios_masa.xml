@@ -1,0 +1,20 @@
+<usuarios>
+    <usuario>
+        <correo>prueba7@prueba.com</correo>
+        <nombre>Alice</nombre>
+        <clave>1234</clave>
+        <rol>0</rol>
+        <num_col>543432232</num_col>
+        <especialidad>Alergologia</especialidad>
+        <hospital></hospital>
+    </usuario>
+    <usuario>
+        <correo>prueba8@prueba.com</correo>
+        <nombre>leti</nombre>
+        <clave>1234</clave>
+        <rol>1</rol>
+        <num_col>654456541</num_col>
+        <especialidad>Geriatria</especialidad>
+        <hospital>La Paz</hospital>
+    </usuario>
+</usuarios>

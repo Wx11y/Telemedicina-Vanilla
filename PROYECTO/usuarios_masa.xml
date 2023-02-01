@@ -1,0 +1,11 @@
+<usuarios>
+    <usuario>
+        <correo>prueba@prueba.com</correo>
+        <nombre>prueba</nombre>
+        <clave>1234</clave>
+        <rol>1</rol>
+        <num_col>321432432</num_col>
+        <especialidad></especialidad>
+        <hospital></hospital>
+    </usuario>
+</usuarios>
